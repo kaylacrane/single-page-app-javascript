@@ -1,7 +1,9 @@
 /* all views/pages to load will inherit from this class */
 
 export default class {
-  constructor(params) {}
+  constructor(params) {
+    this.params = params;
+  }
 
   setTitle(title) {
     /*page title*/
